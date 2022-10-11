@@ -1,9 +1,20 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="Diff.ApplyLeftSide" />
+  <action id="EditorSelectWord" />
+  <action id="JumpToLastWindow" />
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
@@ -15,9 +26,12 @@
   <action id="RunAnything">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
+  <action id="SmartSelect" />
+  <action id="TableResult.GrowSelection" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UsageFiltering.ReadAccess" />
+  <action id="UsageFiltering.WriteAccess" />
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>

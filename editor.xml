@@ -22,6 +22,7 @@
   </component>
   <component name="EditorSettings">
     <option name="TOOLTIPS_DELAY_MS" value="100" />
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
   </component>
   <component name="InlayHintsSettings">
     <option name="disabledHintProviderIds">
