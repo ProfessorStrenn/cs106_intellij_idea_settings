@@ -32,6 +32,13 @@
   <inspection_tool class="MalformedDataProvider" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MethodRefCanBeReplacedWithLambda" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="MultipleVariablesInDeclaration" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="NewClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
+    <extension name="JUnitTestClassNamingConvention" enabled="true">
+      <option name="m_regex" value="[A-Z][A-Za-z\d]*Test(er|s|Case)?|Test[A-Z][A-Za-z\d]*|IT(.*)|(.*)IT(Case)?" />
+      <option name="m_minLength" value="5" />
+      <option name="m_maxLength" value="255" />
+    </extension>
+  </inspection_tool>
   <inspection_tool class="ObjectEquality" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true">
     <option name="m_ignoreEnums" value="true" />
     <option name="m_ignoreClassObjects" value="true" />
