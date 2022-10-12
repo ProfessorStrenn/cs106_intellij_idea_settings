@@ -7,8 +7,8 @@
     <option id="js.param.hints.show.names.for.tagged" value="false" />
     <option id="angular.show.names.for.pipes" value="false" />
     <disabledLanguages>
-      <language id="JAVA" />
       <language id="TypeScript" />
+      <language id="JAVA" />
       <language id="Angular2Html" />
       <language id="JavaScript" />
       <language id="kotlin" />
