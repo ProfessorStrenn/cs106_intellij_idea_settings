@@ -1,0 +1,18 @@
+<code_scheme name="Default" version="173">
+  <JavaCodeStyleSettings>
+    <option name="CLASS_NAMES_IN_JAVADOC" value="2" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="0" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="0" />
+    <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
+      <value>
+        <package name="java.awt" withSubpackages="false" static="false" />
+        <package name="sbcc.Core" withSubpackages="true" static="true" />
+        <package name="java.lang.System" withSubpackages="true" static="true" />
+        <package name="org.apache.commons.lang3.StringUtils" withSubpackages="true" static="true" />
+        <package name="java.util.Arrays" withSubpackages="true" static="true" />
+        <package name="java.lang.Math" withSubpackages="true" static="true" />
+        <package name="javax.swing" withSubpackages="false" static="false" />
+      </value>
+    </option>
+  </JavaCodeStyleSettings>
+</code_scheme>
