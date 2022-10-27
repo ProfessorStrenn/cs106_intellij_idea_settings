@@ -24,6 +24,9 @@
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="EditorSelectWord" />
+  <action id="ExportTestResults">
+    <keyboard-shortcut first-keystroke="alt x" second-keystroke="alt t" />
+  </action>
   <action id="JumpToLastWindow" />
   <action id="ProjectFromVersionControl">
     <keyboard-shortcut first-keystroke="alt n" second-keystroke="alt v" />
