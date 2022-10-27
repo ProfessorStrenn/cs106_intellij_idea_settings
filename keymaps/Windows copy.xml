@@ -1,4 +1,14 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7" />
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
