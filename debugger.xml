@@ -1,5 +1,6 @@
 <application>
   <component name="DebuggerSettings">
+    <option name="ALWAYS_SMART_STEP_INTO" value="false" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
@@ -90,18 +91,21 @@
       <option name="ENABLED" value="true" />
       <option name="INCLUDE" value="true" />
     </filter>
+    <filter>
+      <option name="PATTERN" value="java.util.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.util.stream.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
   </component>
   <component name="XDebuggerSettings">
     <data-views />
     <general>
       <option name="showDebuggerOnBreakpoint" value="false" />
     </general>
-    <debuggers>
-      <debugger id="javascript">
-        <configuration>
-          <custom-object-presentation />
-        </configuration>
-      </debugger>
-    </debuggers>
   </component>
 </application>
