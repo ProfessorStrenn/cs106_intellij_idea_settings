@@ -3,5 +3,7 @@
     <ignoreAction name="Java/Refactorings/Introduce local variable" />
     <ignoreAction name="Java/Other/Change access modifier" />
     <ignoreAction name="Java/Declaration/Change variable type to type of initializer" />
+    <ignoreAction name="Java/JUnit/Replace assertTrue, assertFalse, or assertNull with assertEquals" />
+    <ignoreAction name="Java/JUnit/Flip assert literal" />
   </component>
 </application>
